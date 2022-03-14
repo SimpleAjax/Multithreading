@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-class BlockingQueueImpl {
+class BlockingQueueReentrantLockImpl {
     public static void main( String args[] ) throws Exception{
         final BQ<Integer> q = new BQ<>(5);
 
